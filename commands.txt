@@ -1,0 +1,171 @@
+COMMANDS 
+
+ls -l  
+ver en lista el directorio completo en el que estoy  *** ejm: c: y me 
+muestrala lista de archivos que tengo alli
+------------------------------------------------------------------------------------------------------
+
+ls
+ver directorio completo en el que estoy pero no ordenado en lista
+------------------------------------------------------------------------------------------------------
+
+ls -al
+ver en lista el directorio completo en el que estoy incluyendo archivos que estan
+ocultos y/o privados
+------------------------------------------------------------------------------------------------------
+
+pwd  
+ver en donde estoy  ejm: /c/Users/LUBER-
+------------------------------------------------------------------------------------------------------
+
+clear
+limpiar la consola
+------------------------------------------------------------------------------------------------------
+
+cd  
+si quiero cambiar de directorio, cd significa change directory. ejm si con pwd me  muestra que 
+estoy en  /c/Users/LUBER- y quiero cambiar al disco D: entonces seria asi: 
+LUBER-@LUBER MINGW64 /c (master)  -> ESTOY EN C:
+$ cd D:                           -> CAMBIO AL D:                 
+
+LUBER-@LUBER MINGW64 /d           -> YA ESTOY EN D:    
+$
+
+Si uso pwd ya me muestra que estoy en el D:
+LUBER-@LUBER MINGW64 /d
+$ PWD
+/d
+
+y puedo moverme por todos los archivos del directorio ejm:
+estoy en en el c: y quiero llegar hasta la carpeta GIT course verifico en que ruta esta el
+archivo y puedo ir con cd puedo escribir las primeras letras de la palabra de cada ruta y con 
+la tecla tabular me completa automaticamente en nombre del archivo ejm escribo GIT luego tabular 
+y me completa  asi: GIT\ course/ tener cuidado que al autocompletar si me traiga el archivo correcto ya que puedo 
+tener varios archivos que empiezan por las mismas letras
+si en el nombre del archivo aparece un backslash \ es porque tengo un espacio en el nombre del archivo
+GIT course
+GIT\ course/  así me lo muestra la consola
+
+
+LUBER-@LUBER MINGW64 /c (master)
+$ cd Users/LUBER-/Desktop/GIT\ course/
+
+LUBER-@LUBER MINGW64 ~/Desktop/GIT course (master)
+$
+-----------------------------------------------------------------------------------------------------
+
+cd ..
+si me quiero devolver al directorio anterior ejm estoy en GIT course entonces
+con cd .. me devuelo solo al directorio anterior que en este caso seria Desktop
+
+LUBER-@LUBER MINGW64 ~/Desktop/GIT course (master)
+$ cd ..
+
+LUBER-@LUBER MINGW64 ~/Desktop (master)
+$
+---------------------------------------------------------------------------------------------------
+cd 
+solamente cd sin puntos regreso a la base 
+LUBER-@LUBER MINGW64 ~/Desktop (master)
+$ cd
+
+LUBER-@LUBER MINGW64 ~ (master)
+$ pwd
+/c/Users/LUBER-
+-----------------------------------------------------------------------------------------------------
+history
+para er todos los comandos que he usado me salen en una lista enumerados en orden ascendente 
+si quiero repetir un comando por ejemplo uno largo y dificil de escribir para no tener que volver
+a copiar todo eso entonces lo repito asi:
+si tengo esta lista de comandos que salen son el history,
+1 pwd
+2 clear
+3 cd D:
+4 history
+quiero repetir uno de ellos,
+entonces uso el siguente comando:
+
+!3
+signo de admiracion mas el numero que tiene asignado el comando en la lista que me dio el history
+
+tambien lo puedo hacer con las flechas de desplazamiento hacia arriba y abajo hasta encontrar
+el comando que necesito
+-------------------------------------------------------------------------------------------------------
+
+******************************************INFORMATIVA***********************************************
+./ la carpeta en la que estoy actualmente 
+../ la carpeta anterior
+****************************************************************************************************
+-------------------------------------------------------------------------------------------------------
+touch
+para crear archivo, primero voy con cd a la carpeta en donde quiero crear el archivo
+$ cd LUBER-/Desktop/GIT\ course/
+y luego el comando touch mas el nombre que le voy a dar e archivo
+ejm: touch hola.txt
+-------------------------------------------------------------------------------------------------------
+
+cat
+para ver el contenido del archivo plano
+comando cat mas el nombre del archivo
+ejm cat hola.txt
+-------------------------------------------------------------------------------------------------------
+rm
+eliminar un archivo *** OJO con este comando*** porque se puede eliminar cualquier cosa... tiene 
+otras opciones como rm -f etc
+
+------------------------------------------------------------------------------------------------------
+
+rm --help
+el -- help adicionado a cualquier comando me ayuda a saber que mas le puedo agregar a este comando 
+para que haga otras funciones
+el resultado es una lista de opciones con la explicaion de que hace cada comando
+
+ejm: 
+  -f, --force           ignore nonexistent files and arguments, never prompt
+
+el comando seria asi
+rm -f   
+
+o asi
+rm --force
+
+por ejemplo este sirve para forzar eliminar un archivo independientemente de si es una carperta o 
+un archivo
+
+------------------------------------------------------------------------------------------------------
+
+git init
+crear la carpeta .git para iniciar un repositorio vacio
+con este comando le decimos...inicie un repositorio de git en esta carpeta donde estoy parado
+la carpeta .git es un archivo oculto
+
+Initialized empty Git repository in C:/Users/LUBER-/Desktop/GIT course/.git/
+
+
+
+
+
+
+
+
+
+
+tectherapy_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
