@@ -1,3 +1,7 @@
 hola a todos
 
 adios a todos
+
+espero que tengan un excelety dia
+
+otro cambio para ejemplo de git rm --cached
