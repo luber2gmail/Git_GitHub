@@ -8,5 +8,6 @@ otro cambio para ejemplo de git rm --cached
 
 mi nombre es Luber. Disfruta el curso
 
-la fecha es 2022
+la fecha es 2022.
+
 
