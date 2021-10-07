@@ -8,7 +8,7 @@ otro cambio para ejemplo de git rm --cached
 
 mi nombre es Luber. Disfruta el curso
 
-la fecha es 2023.
+la fecha ahora es 2025.
 
 prueba q commit sin comentario
 
