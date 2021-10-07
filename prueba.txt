@@ -13,3 +13,5 @@ la fecha es 2023.
 prueba q commit sin comentario
 
 comenzando con git
+
+git show agregado
