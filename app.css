@@ -3,3 +3,6 @@
     padding: 20px;
     background-color: blue;
 }
+.navbar-dark .navbar-brand {   
+   background-color: coral
+}
